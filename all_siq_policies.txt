@@ -1,0 +1,5254 @@
+Id: 12beb4599a08843815d298caa34ff9b2
+    Spec:
+        Name: acadnt_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/acadnt_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/acadnt_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 7e519d25065f57ff1f93cdba57a7108d
+    Spec:
+        Name: acofs_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/acofs_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/acofs_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 16e1d26032db6841882a404c644aab51
+    Spec:
+        Name: adminnt_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/adminnt_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/adminnt_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 4ea9d0d17a87f79cba6c8b5ae457896a
+    Spec:
+        Name: amczfs_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/amczfs_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/amczfs_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 3c55d01f6478ae33e965f88a3ae78e15
+    Spec:
+        Name: anesthnt1_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/anesthnt1_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/anesthnt1_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: f25299c6b548c0be3a00f574509f4d6f
+    Spec:
+        Name: AOXray_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/AOXray_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/AOXray_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:30 PM
+    State: on
+====
+Id: 303e7c80c331a8c76aa7c43d4111cfb4
+    Spec:
+        Name: bcadowntime_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/bcadowntime_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/bcadowntime_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: f6be67bfd5f499fd206255c29180cf44
+    Spec:
+        Name: biochem-core_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/biochem-core_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/biochem-core_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 4b518b300c7f3dc93f18676e050b9424
+    Spec:
+        Name: biochem_vol2
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/biochem_vol2
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/biochem_vol2
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: a9c72bd98e288e1c156c1a32a924e75b
+    Spec:
+        Name: biochemnt_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/biochemnt_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/biochemnt_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 89d7f5ed7558116ab29af9c1ccb784f3
+    Spec:
+        Name: biopharma_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/biopharma_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/biopharma_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: db86c5b689edc04fbd81ea400895360e
+    Spec:
+        Name: bk3d_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/bk3d_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/bk3d_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: bb89c35e265a05fb9b4d9ca68503dfc7
+    Spec:
+        Name: bmri_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/bmri_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/bmri_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: a79d83797bd862ee3e7b798246fe829a
+    Spec:
+        Name: brbaperiofs_2_times_a_day
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/brbaperiofs_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/brbaperiofs_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days every 12 hours between 12:00 AM and 11:59 PM
+    State: on
+====
+Id: 3667aa97365acb8509afaccb2169026e
+    Spec:
+        Name: bresslab_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/bresslab_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/bresslab_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: b54ddeb6573a5b8dd6c1d4205d6bd49c
+    Spec:
+        Name: burkefs_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/burkefs_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/burkefs_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: daa5c8463168272e5c2ae303b03325ad
+    Spec:
+        Name: cancer_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/cancer_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/cancer_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: cfb1d1943bf357d9b048dc1a31c30655
+    Spec:
+        Name: cardio1
+        Description: 
+        Source paths:
+            Root Path: /ifs/cardio1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/cardio1
+            Make snapshot: on
+            Snapshot pattern: SIQ_%{SrcCluster}_%{PolicyName}_%Y-%m-%d_%H-%M
+            Snapshot alias: SIQ_%{SrcCluster}_%{PolicyName}
+            Snapshot expiration: 2 weeks
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 09:00 PM
+    State: on
+====
+Id: 4a61f57b6cfb678db9e41e4a23a2cf6b
+    Spec:
+        Name: cardiont_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/cardiont_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/cardiont_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: d5c8702857fde89f83189d044638f925
+    Spec:
+        Name: cardiooutreach_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/cardiooutreach_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/cardiooutreach_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: e0b0caed535b3d3598777218fe9ff9e1
+    Spec:
+        Name: cctunt_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/cctunt_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/cctunt_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 450e5576380d3c096c766690ef7c2167
+    Spec:
+        Name: cellbiology_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/cellbiology_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/cellbiology_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 561af9c5f4fd01204e5c3bbe2b06338e
+    Spec:
+        Name: cghealth_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/cghealth_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/cghealth_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 2f758b560b116565e8291702c0c605ee
+    Spec:
+        Name: chipfs_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/chipfs_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/chipfs_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 3573286c91dfad809309f559f70b9ce4
+    Spec:
+        Name: citrix_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/citrix_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/citrix_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: aa61310bfff203c111fdbbfd1287793f
+    Spec:
+        Name: clinical_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/clinical_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/clinical_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 6f3db1ce988627c504f784e3b58f4fb7
+    Spec:
+        Name: corepoint_sqlwitness_vol1
+        Description: Roy's CorePoint SQL cluster hosting
+        Source paths:
+            Root Path: /ifs/isi1/corepoint_sqlwitness_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/corepoint_sqlwitness_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 09283e0465fbb94af73bd3bbdc959355
+    Spec:
+        Name: crmi_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/crmi_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/crmi_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 8d098ac3cf6bf405f5c98fb41acfe658
+    Spec:
+        Name: csa_its_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/csi_its_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/csi_its_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: a556860cf515a21a9ff845e037c03cb2
+    Spec:
+        Name: ctscfs_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ctscfs_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ctscfs_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 2cff59e4beb2360611f728e0bee71907
+    Spec:
+        Name: ctscnasv1_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ctscnasv1_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ctscnasv1_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 9db7008b3df4cad67ff3c7390284a30e
+    Spec:
+        Name: ctscnasv1s_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ctscnasv1s_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ctscnasv1s_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 494ddd71a7c30b9a147b58864d55b4b1
+    Spec:
+        Name: ctscnasv5_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ctscnasv5_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ctscnasv5_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 8e3e2c93b31d7cf4dc7f06b8cc5c2f09
+    Spec:
+        Name: ctscnasv7_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ctscnasv7_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ctscnasv7_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: b75897a6e60d724824c7acc8503f68cd
+    Spec:
+        Name: ctscnav5s_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ctscnav5s_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ctscnav5s_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: e109f766b19769bdbe4376e3fd1071d2
+    Spec:
+        Name: ctscnav7s_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ctscnav7s_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ctscnav7s_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: b6ba366012bfe59e18d5cdae9cc97822
+    Spec:
+        Name: ctsurgery_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ctsurgery_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ctsurgery_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: bfe2675e2f4b0c318abba4bfef09aa76
+    Spec:
+        Name: dalio_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/dalio_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/dalio_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:30 PM
+    State: on
+====
+Id: cdb6aa5466ab4ddb9db4ecb07b1e0520
+    Spec:
+        Name: dermatology2_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/dermatology2_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/dermatology2_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 0c44243ddeaf705a3c87c6bf421ca0d8
+    Spec:
+        Name: dermatology_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/dermatology_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/dermatology_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 39483307a9b290f503a90f7286799848
+    Spec:
+        Name: dlp-dev_vol1
+        Description: DLP development (ITS Security)
+        Source paths:
+            Root Path: /ifs/isi1/dlp-dev_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/dlp-dev_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: f3b2a42cc5a9ffd0cfb45495a00eaecf
+    Spec:
+        Name: drukier_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/drukier_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/drukier_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 0a54b4b68669de07df6d945d0fe25c3a
+    Spec:
+        Name: edc_home_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/edc_home_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/edc_home_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 3b377921579a726c52cf376ff0aa8877
+    Spec:
+        Name: edcenter_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/edcenter_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/edcenter_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: c4ba7f4a8109bb2b49b764fb03020201
+    Spec:
+        Name: endocrine_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/endocrine_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/endocrine_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: f9753581b654303c2659f8144b4121cb
+    Spec:
+        Name: entnt_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/entnt_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/entnt_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 9b1cbe6de44b99c6bc92ef914c8dc599
+    Spec:
+        Name: epicblob_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/epicblob_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/epicblob_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+            Skip Target DNS Lookup: on
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 5f8253bdfb847ec43053603a9b955ef9
+    Spec:
+        Name: epicblob_vol2
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/epicblob_vol2
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/epicblob_vol2
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: b91bb44de8cc680891c1afa6bdcc3930
+    Spec:
+        Name: epicblob_vol3
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/epicblob_vol3
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/epicblob_vol3
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 971b8ee5ef63ff56f3c648da36c0ce65
+    Spec:
+        Name: epicstore_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/epicstore_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/epicstore_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 58ffc9d33da19a7f361dd45ab6495ca1
+    Spec:
+        Name: eso_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/eso_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/eso_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: a5aaf8643f51a218486843292b603e86
+    Spec:
+        Name: facdev_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/facdev_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/facdev_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 0357060acdcbd19aa278ac3e87894f04
+    Spec:
+        Name: facilitiesnt_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/facilitiesnt_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/facilitiesnt_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: b7dc8c50c41ae8918df2faa8b64e01f7
+    Spec:
+        Name: fornacis_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/fornacis_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/fornacis_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: cafe844a24c20be6e8d4864ed398bc70
+    Spec:
+        Name: frshrs_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/frshrs_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/frshrs_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 3fea42dfa3f423c120bdc18dccdba252
+    Spec:
+        Name: gallego_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/gallego_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/gallego_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 6686f7f23a11a3c5226dd6a07b977aac
+    Spec:
+        Name: gcto_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/gcto_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/gcto_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: e1530586ca6283897e5236e1b316c400
+    Spec:
+        Name: geneticmedicine_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/geneticmedicine_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/geneticmedicine_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:30 AM
+    State: on
+====
+Id: 0340c59dfee033d5afd758383acd6b9f
+    Spec:
+        Name: genomics1
+        Description: None
+        Source paths:
+            Root Path: /ifs/genomics1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/genomic1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): yes
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync manually
+    State: on
+====
+Id: 6509e7878eb918701a320eb44abf5d6b
+    Spec:
+        Name: geriatricsmhweb_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/geriatricsmhweb_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/geriatricsmhweb_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 262d5fd30d6d1efad4c4885e993779b2
+    Spec:
+        Name: gim-admin_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/gim-admin_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/gim-admin_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: b23b17467bbc1a5fa861826f228d47a6
+    Spec:
+        Name: gis-corepoint_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/gis-corepoint_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/gis-corepoint_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: d5fb83efd08099b5a4c97a76c3cec7b9
+    Spec:
+        Name: gradschool_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/gradschool_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/gradschool_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: f4d54d6ba13202f2c28fe2f09918c003
+    Spec:
+        Name: hematology_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/hematology_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/hematology_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 14865d51fcd684fc427a3d2d7c26a1f7
+    Spec:
+        Name: HorizonUS_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/HorizonUS_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/HorizonUS_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:30 PM
+    State: on
+====
+Id: 2c8877232951b9a49c370e9c0114794b
+    Spec:
+        Name: HorizonXray_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/HorizonXray_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/HorizonXray_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: bed6c063453b0427f1c3aacf727dd69b
+    Spec:
+        Name: hpr_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/hpr_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/hpr_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 544de6303228164e49fc6511b37d20a4
+    Spec:
+        Name: hr_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/hr_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/hr_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 17599ce28d9d4f98bacd05e6fff371de
+    Spec:
+        Name: ibcfs_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ibcfs_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ibcfs_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 62e76f28d9f624fa576fffbff87762ea
+    Spec:
+        Name: ipm-dev_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ipm-dev_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ipm-dev_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 11f75edb3a154cf12554e066d990524f
+    Spec:
+        Name: ipm-instrument-dev_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ipm-instrument-dev_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ipm-instrument-dev_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: dc34370dcbd13fff8971a096f205b696
+    Spec:
+        Name: ipm-instrument-prod_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ipm-instrument-prod_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ipm-instrument-prod_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 1caa5a250dbed484982e49709dd1e5a0
+    Spec:
+        Name: ipm-instrument-stage_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ipm-instrument-stage_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ipm-instrument-stage_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 6b2429d599e9cf73d15bb3feaf88e621
+    Spec:
+        Name: ipm-myeloid_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ipm-myeloid_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ipm-myeloid_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 295784d3160d73133d7079515b3586c7
+    Spec:
+        Name: ipm-oncomine
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ipm-oncomine
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ipm-oncomine
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: on
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 05c96ee396b71375a1cc74db251dfd41
+    Spec:
+        Name: ipm-prod_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ipm-prod_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ipm-prod_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 0a29c3d429c4964e15d1770330359358
+    Spec:
+        Name: ipm-staging_vol2
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ipm-staging_vol2
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ipm-staging_vol2
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 01:45 AM
+    State: on
+====
+Id: 8d21f7ae22bcb10236ad5e8453ea2e25
+    Spec:
+        Name: ipm-staging_vol3
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ipm-staging_vol3
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ipm-staging_vol3
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 20a5d674bf5f644412b4630a91e2eb70
+    Spec:
+        Name: ipm-staging_vol4
+        Description: IPM project
+        Source paths:
+            Root Path: /ifs/isi1/ipm-staging_vol4
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ipm-staging_vol4
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 92797923381dc0f1fcb5c582be430f62
+    Spec:
+        Name: ipm-webex_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ipm-webex_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ipm-webex_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 1:00 AM
+    State: on
+====
+Id: f080775dff1233bb857ab47ae82927d4
+    Spec:
+        Name: IsilonData_vol1
+        Description: Octavio's Isilon scripts and data files.
+        Source paths:
+            Root Path: /ifs/isi1/IsilonData_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/IsilonData_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 09:00 PM
+    State: on
+====
+Id: 429a115890832a44925cdc52444ebb9f
+    Spec:
+        Name: ithnbmasterp01drfile_vol1
+        Description: Arunkishore Srivivasan
+        Source paths:
+            Root Path: /ifs/isi1/ithnbmasterp01drfile_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ithnbmasterp01drfile_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: a304d3f63c39a0b2df6e6c22d88020c1
+    Spec:
+        Name: its-csqa_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/its-csqa_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/its-csqa_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 9ba0efba9d91d25c0d9a5e95f32f00d4
+    Spec:
+        Name: its_security
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/its_security
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/its_security
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 1c109a9c88bd22e435fe1bb4134c69f2
+    Spec:
+        Name: itsadmin_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/itsadmin_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/itsadmin_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 4eb9dc0cf27cb71470cb5587c908abd5
+    Spec:
+        Name: itsadminfin_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/itsadminfin_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/itsadminfin_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 0ccc615e9771556d3013c910e79c3898
+    Spec:
+        Name: itsiso_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/itsiso_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/itsiso_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: bdf442dd31a13fabe5da44bdf0b66994
+    Spec:
+        Name: kafsacklab_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/kafsacklab_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/kafsacklab_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 9581fa5e2075c66af928bfda44005094
+    Spec:
+        Name: kaypen_vol
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/kaypen_vol
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/kaypen_vol
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 32fcf8eed22bf8da947fe4bee491d507
+    Spec:
+        Name: kds_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/kds_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/kds_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 61154c022971ddb3935eb96e298885a6
+    Spec:
+        Name: kiosses-lab_vol1
+        Description: \\KIOSSES-LAB.med.cornell.edu\kiosses$ 
+        Source paths:
+            Root Path: /ifs/isi1/kiosses-lab_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/kiosses-lab_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: a15a8e61bdb533f403038cf37d9add4f
+    Spec:
+        Name: laurencelab_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/laurencelab_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/laurencelab_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 147693b2bf6fd9df51c1b0845dad22b3
+    Spec:
+        Name: legacybackup
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/legacybackup
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/legacybackup
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 8e569a3022d5c58fda45c3a362aa5c98
+    Spec:
+        Name: libsrv_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/libsrv_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/libsrv_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 620ddbc8d4270c924aa5e704fbabbf6c
+    Spec:
+        Name: lmhmedicine_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/lmhmedicine_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/lmhmedicine_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: a12e3776ae694575b4524571478ae964
+    Spec:
+        Name: lordlab_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/lordlab_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/lordlab_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 1e8360f05eddbe4f23211efc2f0ca52d
+    Spec:
+        Name: macho_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/macho_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/macho_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 72b948b5905c4650c5374cf00ca1e267
+    Spec:
+        Name: mddev_vol
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/mddev_vol
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/mddev_vol
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: db35b0d3b0ba79e1c58581e4305e1843
+    Spec:
+        Name: mdphd_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/mdphd_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/mdphd_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 5f1becb0fda88ba5ae69128b14b8933b
+    Spec:
+        Name: meded_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/meded_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/meded_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 2aa8d8c7b30bb6efaed6247ed3b0aa3d
+    Spec:
+        Name: medhmed_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/medhmed_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/medhmed_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: e621686bfe19f7f12b843316c2b7c54b
+    Spec:
+        Name: medicinegi_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/medicinegi_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/medicinegi_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 8565bea840a4e8e3fafe3d369e05df7b
+    Spec:
+        Name: mednt_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/mednt_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/mednt_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 49eaf7cde83fa7b01f7074d774db4cfe
+    Spec:
+        Name: MelnickLab_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/MelnickLab_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/MelnickLab_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: ebda7d32146409a111322601b102a850
+    Spec:
+        Name: mensendopacs_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/mensendopacs_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/mensendopacs_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 7548b2029c99e53d99080e2a25f3b5e6
+    Spec:
+        Name: mshspap_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/mshspap_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/mshspap_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: ae023fdb7bd04b2582f88fadd2a95b64
+    Spec:
+        Name: ncsgappfs_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ncsgappfs_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ncsgappfs_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 562b3114ecfe792f6f4d101fc21ae9cb
+    Spec:
+        Name: nephrology2_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/nephrology2_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/nephrology2_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: ff4224f39b78ef95fed34c823d945aeb
+    Spec:
+        Name: nephrology_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/nephrology_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/nephrology_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 39d571ad7473610d266cb1633911e292
+    Spec:
+        Name: neurology_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/neurology_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/neurology_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 880b2215dfd4917b15a100e0f03f55ab
+    Spec:
+        Name: neurosurg_mgmt_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/neurosurg_mgmt_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/neurosurg_mgmt_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 45c73fcb5b05df025900f87bdec38bfd
+    Spec:
+        Name: neurosurgnt_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/neurosurgnt_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/neurosurgnt_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 2b325080c6e556458f155a9930ddc2c7
+    Spec:
+        Name: oacfs1_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/oacfs1_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/oacfs1_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:30 AM
+    State: on
+====
+Id: 65a3b3f0f60bf65dc02483fcf9dc0d7d
+    Spec:
+        Name: oaoghe_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/oaoghe_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/oaoghe_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: a703576cbe85e247822cf928a9dc13e4
+    Spec:
+        Name: obgynnt_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/obgynnt_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/obgynnt_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 719f211016162a85aefdc0efc690a96a
+    Spec:
+        Name: obgynpacs_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/obgynpacs_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/obgynpacs_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: b180ea911ffa343b7ef1233774609af2
+    Spec:
+        Name: ocp_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ocp_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ocp_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 81561a2aeb48ac82cc0957b74835d71c
+    Spec:
+        Name: ophth_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ophth_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ophth_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: bd31f4a61c6aca48636ea8e7483fba3b
+    Spec:
+        Name: ophthday-images_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ophthday-images_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ophthday-images_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 44418bd7bc7aa0e2c0e29bda001c2eff
+    Spec:
+        Name: ophthoctimages_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ophthoctimages_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ophthoctimages_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: c95ca9447b7198ea6c003890b4173c22
+    Spec:
+        Name: opticalcore_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/opticalcore_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/opticalcore_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: a694235401433cf942a661caab71f97c
+    Spec:
+        Name: path-images_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/path-images_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/path-images_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 9a3b9b6528bb43783353abd3206f9d62
+    Spec:
+        Name: pathologynt1_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/pathologynt1_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/pathologynt1_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 7b827a7a0f9ef0d4271bc2fcf3a64342
+    Spec:
+        Name: patssvideos_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/patssvideos_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/patssvideos_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:30 PM
+    State: on
+====
+Id: 5dfd7a8c6f846c327c89f4f8c0ddf97f
+    Spec:
+        Name: pediatrics_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/pediatrics_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/pediatrics_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: e410c43867df68aeb4d92767c308aef8
+    Spec:
+        Name: perepletchikovalab_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/perepletchikovalab_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/perepletchikovalab_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: fa2ae4dc884e885bff98b93f4253b6bf
+    Spec:
+        Name: phnt_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/phnt_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/phnt_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 27af2525f9947be3fa14a8cdcf9553c7
+    Spec:
+        Name: physician_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/physician_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/physician_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 69dcd3b9984c64d2313655c742d1723d
+    Spec:
+        Name: pocatvideos_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/pocatvideos_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/pocatvideos_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:30 PM
+    State: on
+====
+Id: 07414cd459d340d6f90679e9e73e0303
+    Spec:
+        Name: pofinance_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/pofinance_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/pofinance_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 0bb45884c0ccc0b76c911e5d01e149b8
+    Spec:
+        Name: popdc_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/popdc_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/popdc_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 877ea59f9f66d75d13fe84e3be1ccb7f
+    Spec:
+        Name: pre-civil-war_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/pre-civil-war_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/pre-civil-war_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 205c1abe5fe54574cbafea948930b081
+    Spec:
+        Name: primarycare_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/primarycare_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/primarycare_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: cab1e081c46851e875a5fe8aa211ee47
+    Spec:
+        Name: proteomics_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/proteomics_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/proteomics_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: e90a9f6d334e997b74e64f5714cee72b
+    Spec:
+        Name: psychiatry_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/psychiatry_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/psychiatry_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 50992c3f0e47c051ffd147ff8076c847
+    Spec:
+        Name: psychlibsrv_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/psychlibsrv_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/psychlibsrv_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 351c6474358e891723a00ff14457896d
+    Spec:
+        Name: pubprnt_quorum_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/pubprnt_quorum_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/pubprnt_quorum_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: aea33659cf3f514914f80d4d4c5496fc
+    Spec:
+        Name: radiology_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/radiology_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/radiology_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: e56f68ad237e2676ef5d6c0cde36a32c
+    Spec:
+        Name: radonc_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/radonc_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/radonc_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 8af5ebf2a0c6e5e8775518d12e695fe6
+    Spec:
+        Name: rdsc_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/rdsc_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/rdsc_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: fba69173dbda3093a87c0ef87f32e5ea
+    Spec:
+        Name: RDSLS_vol1
+        Description: Remote Desktop Service Licensing
+        Source paths:
+            Root Path: /ifs/isi1/RDSLS_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/RDSLS_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 01:00 AM
+    State: on
+====
+Id: 49ea67e42c0187cfcbdc8cc24b1c927d
+    Spec:
+        Name: researchadmin_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/researchadmin_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/researchadmin_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: b5d28e6caf00746ecae23113d7408a43
+    Spec:
+        Name: rightfax_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/rightfax_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/rightfax_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 8ec26b7d92df75663f43c445ec0de92c
+    Spec:
+        Name: ryanlab_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ryanlab_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ryanlab_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 0fd569320aeb3a3620d7fe584733108a
+    Spec:
+        Name: sas1
+        Description: /ifs/sas1
+        Source paths:
+            Root Path: /ifs/sas1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/sas1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 PM
+    State: on
+====
+Id: d2480d43258e699a08b29ebabb2d4e70
+    Spec:
+        Name: shaykhiev_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/shaykhiev_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/shaykhiev_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 8c18fe4d597ca9513baa10f41d67dc02
+    Spec:
+        Name: sidra_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/sidra_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/sidra_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: bfc5fc0ef03ba9293f221b3a2108312f
+    Spec:
+        Name: sleep_med_grass_vol1
+        Description: for the sleep center
+        Source paths:
+            Root Path: /ifs/isi1/sleep_med_grass_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/sleep_med_grass_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): yes
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:30 PM
+    State: on
+====
+Id: 45b8a33df54a6bcb7a533a7bb77d05f1
+    Spec:
+        Name: splunk_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/splunk_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/splunk_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: e46080a8674dca2d0ac813b627e4ed4f
+    Spec:
+        Name: splunkfs_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/splunkfs_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/splunkfs_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 6f6c9a91e168eb4f683ccb96f5542c65
+    Spec:
+        Name: spteam_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/spteam_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/spteam_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: b021424fb03087374a5d705c9eaf856b
+    Spec:
+        Name: storage_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/storage_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/storage_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 652ae3783f044bd70fc4e649bb0eae8e
+    Spec:
+        Name: surgerynt2_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/surgerynt2_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/surgerynt2_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: fc4bdca0b1bd7fed390c6ef46b8f221e
+    Spec:
+        Name: testemc_vol1
+        Description: test for EMC 5/29
+        Source paths:
+            Root Path: /ifs/isi1/testemc_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/testemc_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days every 3 hours between 03:00 PM and 11:59 PM
+    State: on
+====
+Id: 134f374fb5efe59abb9547ca4000a117
+    Spec:
+        Name: testshare1
+        Description: test SyncIQ on the testshare1 share
+        Source paths:
+            Root Path: /ifs/isi1/test1
+            Include: /ifs/isi1/test1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/test1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 09:00 PM
+    State: on
+====
+Id: 1f21bea900910b680974a29e082492f6
+    Spec:
+        Name: translationalcores_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/translationalcores_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/translationalcores_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: f222422806ec2df9772a7e3e888534b4
+    Spec:
+        Name: tritdi_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/tritdi_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/tritdi_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 5624b903da1a1bfefecab91ea8ddd652
+    Spec:
+        Name: ucs_mediashare_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/ucs_mediashare_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/ucs_mediashare_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 3f2555ef8409061e97558c1b8b87b1d9
+    Spec:
+        Name: urologynt_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/urologynt_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/urologynt_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 1fbd9a83f40c563315f7b52dce755e19
+    Spec:
+        Name: vbnas_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/vbnas_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/vbnas_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 89845174ed8c766abcccf0658f640d4e
+    Spec:
+        Name: vdi_archive_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/vdi_archive_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/vdi_archive_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: b8654d9526402cc728c1d873fce0a11a
+    Spec:
+        Name: vdi_users_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/vdi_users_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/vdi_users_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: e43ed74af04e0062547a5466d8683582
+    Spec:
+        Name: VDI_vol1
+        Description: VDI redesign.  ServiceNow INC0861051
+        Source paths:
+            Root Path: /ifs/isi1/VDI_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/VDI_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 03f29b985909faf95ca5843044e70ed0
+    Spec:
+        Name: vdiapps_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/vdiapps_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/vdiapps_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: afae56d662a9fdfd02ed8ce4e139d455
+    Spec:
+        Name: vdiprof_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/vdiprof_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/vdiprof_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: ece6aca69e712518ff7b32fc77b81eaf
+    Spec:
+        Name: vivodump_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/vivodump_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/vivodump_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 2d4a6fee50ec83548c16ce2d11422acc
+    Spec:
+        Name: wcccresearch_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/wcccresearch_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/wcccresearch_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: d1dd706b51ecd6e0c16bb7121a842189
+    Spec:
+        Name: webcomm_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/webcomm_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/webcomm_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 893d6aa4881ed1a32d05be8547f2f1ca
+    Spec:
+        Name: webstorage_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/webstorage_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/webstorage_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: aa957030e8fa1a2b18eb9d1ec1c2684f
+    Spec:
+        Name: womenshealth_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/womenshealth_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/womenshealth_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 12:00 AM
+    State: on
+====
+Id: 6e78c25222c61c39cb810f972b8f81ea
+    Spec:
+        Name: wpphonedata_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/wpphonedata_vol1
+        Source node restriction: 
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/wpphonedata_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on Every 1 day at 11:30 PM
+    State: on
+====
+Id: 5ea9b5083d9055d7f9ef309ad54a0097
+    Spec:
+        Name: wulab_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/wulab_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/wulab_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 5096f076a66690a5dad479c6f0728fd1
+    Spec:
+        Name: x254share_vol1
+        Description: None
+        Source paths:
+            Root Path: /ifs/isi1/x254share_vol1
+        Source node restriction: arista1:aristacli3
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/x254share_vol1
+            Make snapshot: off
+            Restrict target by zone name: on
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 2000
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: 5caed53a8349b0aa61cdb2585b9e856e
+    Spec:
+        Name: xdstore_vol1
+        Description: \\XDData.med.cornell.edu\xdstore$  -  Roy Baksh
+        Source paths:
+            Root Path: /ifs/isi1/xdstore_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/xdstore_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on
+====
+Id: dd3f47883a9da7ae50dd1555dffa81ca
+    Spec:
+        Name: XenServer_vol1
+        Description: Citrix XenServer project
+        Source paths:
+            Root Path: /ifs/isi1/XenServer_vol1
+        Source node restriction: None
+        Destination:
+            Cluster: isi-ithaca.med.cornell.edu
+            Password is present: no
+            Path: /ifs/isi1/XenServer_vol1
+            Make snapshot: off
+            Restrict target by zone name: off
+            Force use of interface in pool: off
+        Predicate: 
+        Check integrity: yes
+        Skip source/target file hashing: no
+        Disable stf syncing: no
+        Changelist creation enabled: no
+        Rename snapshot: off
+        Log level: notice
+        Target content aware initial sync (diff_sync): no
+        Log removed files: no
+        Rotate report period (sec): 31536000
+        Max number of reports: 500
+        Coordinator performance settings:
+            Workers per node: 3
+    Task: sync on every 1 days at 11:00 PM
+    State: on

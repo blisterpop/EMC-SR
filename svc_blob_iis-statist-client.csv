@@ -1,0 +1,13 @@
+Timestamp,Ops,In,Out,TimeAvg,Node,Proto,Class,UserName,LocalName,RemoteName
+1534425243,8.000000,1994.400024,1498.800049,1656.500000,7,smb2,create,CUMC\svc_blob_iis,10.63.34.76,brbepip26.med.cornell.edu
+1534425243,0.200000,18.400000,14.400000,1649.000000,7,smb2,other,CUMC\svc_blob_iis,10.63.34.83,brbepip26.med.cornell.edu
+1534425243,9.000000,2371.199951,1731.599976,1361.199951,7,smb2,create,CUMC\svc_blob_iis,10.63.34.83,brbepip26.med.cornell.edu
+1534425243,1.200000,129.600006,84.000000,1009.666687,7,smb2,namespace_write,CUMC\svc_blob_iis,10.63.34.76,brbepip26.med.cornell.edu
+1534425243,1.200000,129.600006,84.000000,752.833313,7,smb2,namespace_write,CUMC\svc_blob_iis,10.63.34.83,brbepip26.med.cornell.edu
+1534425243,5.000000,535.599976,539.200012,471.279999,7,smb2,namespace_read,CUMC\svc_blob_iis,10.63.34.83,brbepip26.med.cornell.edu
+1534425243,5.600000,603.000000,594.000000,416.821442,7,smb2,namespace_read,CUMC\svc_blob_iis,10.63.34.76,brbepip26.med.cornell.edu
+1534425243,0.800000,39231.199219,67.199997,357.000000,7,smb2,write,CUMC\svc_blob_iis,10.63.34.76,brbepip26.med.cornell.edu
+1534425243,0.800000,49508.601562,67.199997,267.500000,7,smb2,write,CUMC\svc_blob_iis,10.63.34.83,brbepip26.med.cornell.edu
+1534425243,7.400000,680.799988,947.200012,123.810814,7,smb2,file_state,CUMC\svc_blob_iis,10.63.34.83,brbepip26.med.cornell.edu
+1534425243,5.400000,496.799988,691.200012,119.222221,7,smb2,file_state,CUMC\svc_blob_iis,10.63.34.76,brbepip26.med.cornell.edu
+1534425243,0.400000,46.799999,30.799999,89.500000,7,smb2,read,CUMC\svc_blob_iis,10.63.34.83,brbepip26.med.cornell.edu

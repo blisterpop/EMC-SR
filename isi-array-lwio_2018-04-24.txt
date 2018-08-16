@@ -1,0 +1,48 @@
+isi1-1: Server statistics [level 0]: 
+isi1-1: 
+isi1-1: Connections   [Current: 1352] [Maximum: 1561]
+isi1-1: Sessions      [Current: 1286] [Maximum: 1483]
+isi1-1: Tree connects [Current: 1600] [Maximum: 1903]
+isi1-1: Files:        [Current: 2945] [Maximum: 8066]
+isi1-2: Server statistics [level 0]: 
+isi1-2: 
+isi1-2: Connections   [Current: 1228] [Maximum: 1762]
+isi1-2: Sessions      [Current: 1191] [Maximum: 1714]
+isi1-2: Tree connects [Current: 1438] [Maximum: 2112]
+isi1-2: Files:        [Current: 2390] [Maximum: 8833]
+isi1-3: Server statistics [level 0]: 
+isi1-3: 
+isi1-3: Connections   [Current: 1358] [Maximum: 1620]
+isi1-3: Sessions      [Current: 1270] [Maximum: 1526]
+isi1-3: Tree connects [Current: 1520] [Maximum: 1857]
+isi1-3: Files:        [Current: 2752] [Maximum: 5462]
+isi1-4: Server statistics [level 0]: 
+isi1-4: 
+isi1-4: Connections   [Current: 1334] [Maximum: 1865]
+isi1-4: Sessions      [Current: 1260] [Maximum: 1750]
+isi1-4: Tree connects [Current: 1551] [Maximum: 2126]
+isi1-4: Files:        [Current: 2716] [Maximum: 7399]
+isi1-5: Server statistics [level 0]: 
+isi1-5: 
+isi1-5: Connections   [Current: 1406] [Maximum: 1692]
+isi1-5: Sessions      [Current: 1323] [Maximum: 1576]
+isi1-5: Tree connects [Current: 1590] [Maximum: 1863]
+isi1-5: Files:        [Current: 2371] [Maximum: 8223]
+isi1-6: Server statistics [level 0]: 
+isi1-6: 
+isi1-6: Connections   [Current: 1329] [Maximum: 1660]
+isi1-6: Sessions      [Current: 1249] [Maximum: 1558]
+isi1-6: Tree connects [Current: 1521] [Maximum: 1960]
+isi1-6: Files:        [Current: 2641] [Maximum: 6636]
+isi1-7: Server statistics [level 0]: 
+isi1-7: 
+isi1-7: Connections   [Current: 1344] [Maximum: 2387]
+isi1-7: Sessions      [Current: 1270] [Maximum: 2265]
+isi1-7: Tree connects [Current: 1549] [Maximum: 2642]
+isi1-7: Files:        [Current: 2499] [Maximum: 7061]
+isi1-8: Server statistics [level 0]: 
+isi1-8: 
+isi1-8: Connections   [Current: 0] [Maximum: 0]
+isi1-8: Sessions      [Current: 0] [Maximum: 0]
+isi1-8: Tree connects [Current: 0] [Maximum: 0]
+isi1-8: Files:        [Current: 0] [Maximum: 0]
