@@ -1,0 +1,10 @@
+/ifs/isi1/kaypen_vol1 -7TB      can only remove 1Y - deleted 1Y sched          
+/ifs/isi1/popdc_vol1 – 6TB	can remove 10/30/1Y - keep remote mirror - deleted 10/30/1Y sched 
+/ifs/isi1/phnt_vol1/   -  5TB	can remove 10/30/1Y - keep remote mirror - deleted 10/30/1Y sched 
+/ifs/isi1/pedzfs_vol1  - 4TB	can remove 10/Sync - deleted 10/Sync sched
+/ifs/isi1/ctscnasv1_vol1 -4TB	
+/ifs/isi1/epicstore_vol1  -3TB	keep remote mirror
+/ifs/isi1/pediatrics_vol1  -3TB	can remove 10/30/1Y - keep remote mirror - deleted 10/30/1Y sched
+/ifs/isi1/adminnt_vol1    - 3TB	keep remote mirror	
+/ifs/isi1/schifflab_vol1   -3TB	can remove 10/Sync 
+/ifs/isi1/raspnt_vol        -2TB can remove 10/(Sync??) - deleted 10 day sched
